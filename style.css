@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(202, 200, 200);
+}
+
+.mainheader {
+    color: tomato;
+}
+.sectionheader {
+    color: #1460aa;
+}
+.diaryheader {
+    color: #aa14a3;
+}
+
+.paragraph {
+    color: darkblue;
+}
