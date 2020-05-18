@@ -6,26 +6,28 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Document</title>
+	<link rel="stylesheet" href="normalize.css" type="text/css">
 	<link rel="stylesheet" href="style.css" type="text/css">
 </head>
 
 <body>
-	<header>
-		<a href="index.html.html.">Strona głowna</a>
-		<a href="znaczniki.html">Znaczniki</a>
-		<a href="atrybuty.html">Atrybuty</a>
+	<header class="header">
+		<nav class="navigation">
+			<a class="navigation__link navigation__link--homepage" href="index.html.html.">Strona głowna</a>
+			<a class="navigation__link" href="znaczniki.html">Znaczniki</a>
+			<a class="navigation__link" href="atrybuty.html">Atrybuty</a>
+		</nav>
 	</header>
-	<main>
-		<header>
-			<h1 class="mainheader">
+	<main class="main">
+		<header class="main__header">
+			<h1 class="main__header--js" id="name">
 				Michał Maj - Strona Domowa oraz kurs WTF
 			</h1>
 
 		</header>
-		<sectionn>
-
-			<h2 class="sectionheader"> Kim jestem? </h2>
-			<p>
+		<sectionn class="about">
+			<h2 class="about__header"> Kim jestem? </h2>
+			<p class="about__header__paragraph">
 				Wita, mam na imię Michał, zawodowo zamuje się programowaniem obrabiarek sterowanych numerycznie, czyli maszyn
 				CNC Frezarek i Tokarek sterowanych komputerm za pomocą programu CAM.
 			</p>
@@ -34,14 +36,14 @@
 
 		<section>
 
-			<section>
-				<h2 class="diaryheader"> Szkolenie WTF</h2>
+			<section class="about">
+				<h2 class="about__header"> Szkolenie WTF</h2>
 			</section>
 
-			<section>
-				<h3>Co to jest HTML5</h3>
+			<section class="about">
+				<h2 class="about__header">Co to jest HTML5</h2>
 				<articule>
-					<p class="paragraph">
+					<p class="about__header__paragraph">
 						-opakowuje i opisuje treść strony
 						-mówi przeglądarce o struktórze dokumentu
 						-posiada swoją zdefiniowaną składnie
@@ -50,80 +52,81 @@
 						-po napisaniu kodu możemy sprawdzić go w validatorze
 					</p>
 				</articule>
+			</section>
+			<section class="about">
 				<h2>
-					<a class="diaryheader" href="znaczniki.html">Znaczniki HTML</a>
+					<a class="about__header--link" href="znaczniki.html">Znaczniki HTML</a>
 				</h2>
 			</section>
-			<section>
+			<section class="about">
 				<h2>
-					<a class="diaryheader" href="atrybuty.html">Atrybuty HTML</a>
+					<a class="about__header--link" href="atrybuty.html">Atrybuty HTML</a>
 				</h2>
 			</section>
-			<section>
-				<h3>Co to są CSS?</h3>
+			<section class="about">
+				<h3 class="about__header">Co to są CSS?</h3>
 				<articule>
-					<p class="paragraph">
+					<p class="about__header__paragraph">
 						-odpowiadają za prezentację treści strony
 						-nie mają jednej wersji(rozwój modułów),potocznie mówi się e aktulana wersja to 3
 						-przeglądrki potrafi róznie interpretować CSS, co prowadzi do tego że
 						-pisanie stylów powoduje wiele frustraji u programistów (ale jest też fajnym wyzwaniem)
 					</p>
+					<p class="about__header__paragraph--js"></p>
 				</articule>
 			</section>
-			<section>
-				<h2>
-					<a class="diaryheader"> Polecnenia w CSS</a>
-				</h2>
+			<section class="about">
+				<h2 class="about__header">Polecnenia w CSS </h2>
 
-				<p class="paragraph">
+				<p class="about__header__paragraph">
 					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum quisquam non impedit pariatur, aliquam
 					odio dignissimos? Natus velit sint tempora. Ipsum debitis placeat dugiat eos? Totam expedita id vel
 					minus.
 				</p>
 			</section>
-			<section>
-				<h3>Jak stworzyć prawidłowego HTML5?</h3>
-				<p class="paragraph">
+			<section class="about">
+				<h3 class="about__header">Jak stworzyć prawidłowego HTML5?</h3>
+				<p class="about__header__paragraph">
 					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum quisquam non impedit pariatur, aliquam
 					odio dignissimos? Natus velit sint tempora. Ipsum debitis placeat fugiat eos? Totam expedita id vel
 					minus.
 				</p>
 			</section>
-			<section>
-				<h3>Jak stworzyć prawidłowego HTML5?</h3>
-				<p class="paragraph">
+			<section class="about">
+				<h3 class="about__header">Jak stworzyć prawidłowego HTML5?</h3>
+				<p class="about__header__paragraph">
 					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum quisquam non impedit pariatur, aliquam
 					odio dignissimos? Natus velit sint tempora. Ipsum debitis placeat fugiat eos? Totam expedita id vel
 					minus.
 				</p>
 			</section>
-			<section>
-				<h3>Jak stworzyć prawidłowego HTML5?</h3>
-				<p class="paragraph">
-					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum quisquam non impedit pariatur, aliquam
-					odio dignissimos? Natus velit sint tempora. Ipsum debitis placeat fugiat eos? Totam expedita id vel
-					minus.
-				</p class="paragraph">
-			</section>
-			<section>
-				<h3>Jak stworzyć prawidłowego HTML5?</h3>
-				<p class="paragraph">
+			<section class="about">
+				<h3 class="about__header">Jak stworzyć prawidłowego HTML5?</h3>
+				<p class="about__header__paragraph">
 					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum quisquam non impedit pariatur, aliquam
 					odio dignissimos? Natus velit sint tempora. Ipsum debitis placeat fugiat eos? Totam expedita id vel
 					minus.
 				</p>
 			</section>
-			<section>
-				<h3>Jak stworzyć prawidłowego HTML5?</h3>
-				<p class="paragraph">
+			<section class="about">
+				<h3 class="about__header">Jak stworzyć prawidłowego HTML5?</h3>
+				<p class="about__header__paragraph">
 					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum quisquam non impedit pariatur, aliquam
 					odio dignissimos? Natus velit sint tempora. Ipsum debitis placeat fugiat eos? Totam expedita id vel
 					minus.
 				</p>
 			</section>
-			<section>
-				<h3>Jak stworzyć prawidłowego HTML5?</h3>
-				<p class="paragraph">
+			<section class="about">
+				<h3 class="about__header">Jak stworzyć prawidłowego HTML5?</h3>
+				<p class="about__header__paragraph">
+					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum quisquam non impedit pariatur, aliquam
+					odio dignissimos? Natus velit sint tempora. Ipsum debitis placeat fugiat eos? Totam expedita id vel
+					minus.
+				</p>
+			</section>
+			<section class="about">
+				<h3 class="about__header">Jak stworzyć prawidłowego HTML5?</h3>
+				<p class="about__header__paragraph">
 					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum quisquam non impedit pariatur, aliquam
 					odio dignissimos? Natus velit sint tempora. Ipsum debitis placeat fugiat eos? Totam expedita id vel
 					minus.

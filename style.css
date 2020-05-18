@@ -1,17 +1,45 @@
+html{
+  box-sizing: border-box;
+}
 body {
-    background-color: rgb(202, 200, 200);
+  background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 8%, rgba(117,117,117,1) 100%);
+}
+.main__header {
+  color: tomato;
+}
+.header {
+  color: #f4f0f4;
+}
+.about__header {
+  color: #e7e40a;
 }
 
-.mainheader {
-    color: tomato;
+.about__header__paragraph {
+  color:#f4f0f4;
+  
 }
-.sectionheader {
-    color: #1460aa;
+.main {
+  max-width:1000px ;
+  margin: 0 auto;
 }
-.diaryheader {
-    color: #aa14a3;
+.navigation {
+  background-color: aquamarine;
+  color:#f4f0f4;
+  font-size: 30px;
+  border-radius: 8px;
+  display: flex;
+  height: 150px;
+  justify-content: space-evenly;
+
+  
 }
 
-.paragraph {
-    color: darkblue;
+.about__header--link{
+  color:#57bde;
+  
+}
+.navigation__link{
+color: crimson;
+margin: 50px 0px 0px 50px;
 }
