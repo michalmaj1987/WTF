@@ -12,77 +12,58 @@
 
 <body>
 	<header class="header">
-		<nav class="navigation">
-			<a class="navigation__link navigation__link--homepage" href="index.html.html.">Strona głowna</a>
-			<a class="navigation__link" href="znaczniki.html">Znaczniki</a>
-			<a class="navigation__link" href="atrybuty.html">Atrybuty</a>
+		<nav class="navigation navigation--js">
+			<a class="navigation__link navigation__link--homepage" href="index.html.html">Strona głowna</a>
+			<a class="navigation__link" href="wtf.html">WTF Co Ten Frontend?</a>
+			<a class="navigation__link" href="work.html">Praca Zawodowa</a>
 		</nav>
+	  	<button class="hamburger hamburger--js">MENU</button>
 	</header>
 	<main class="main">
 		<header class="main__header">
-			<h1 class="main__header--js" id="name">
-				Michał Maj - Strona Domowa oraz kurs WTF
-			</h1>
-
+			<h1 class="main__header--js" id="name"></h1>
 		</header>
-		<sectionn class="about">
+	
+	<sectionn class="about">
 			<h2 class="about__header"> Kim jestem? </h2>
+			<div< class="grid__foto">
+			<img src="foto1.jpg" alt="Zdjęcie autora">
 			<p class="about__header__paragraph">
-				Wita, mam na imię Michał, zawodowo zamuje się programowaniem obrabiarek sterowanych numerycznie, czyli maszyn
-				CNC Frezarek i Tokarek sterowanych komputerm za pomocą programu CAM.
+				Witam, mam na imię Michał. Zawodowo zamuje się programowaniem maszyn
+				CNC. Frezarek i Tokarek sterowanych komputerm za pomocą programu CAM.
 			</p>
-
+		</div>
 		</sectionn>
-
+  
 		<section>
-
 			<section class="about">
 				<h2 class="about__header"> Szkolenie WTF</h2>
 			</section>
-
+		<div class="grid">
 			<section class="about">
 				<h2 class="about__header">Co to jest HTML5</h2>
-				<articule>
-					<p class="about__header__paragraph">
-						-opakowuje i opisuje treść strony
-						-mówi przeglądarce o struktórze dokumentu
-						-posiada swoją zdefiniowaną składnie
-						-nie jest językiem programowania, jest językiem znaczników(Marcup Language)
-						-aktualną wersją jest 5.2
-						-po napisaniu kodu możemy sprawdzić go w validatorze
-					</p>
-				</articule>
+				<ul class="about__header__paragraph">
+					<li>opakowuje i opisuje treść strony</li>
+					<li>mówi przeglądarce o struktórze dokumentu</li>
+					<li>posiada swoją zdefiniowaną składnie</li>
+					<li>nie jest językiem programowania</li>
+					<li>aktualną wersją jest 5.2</li>
+					<li>po napisaniu kodu możemy sprawdzić go w validatorze</li>
+				</ul>
 			</section>
 			<section class="about">
-				<h2>
-					<a class="about__header--link" href="znaczniki.html">Znaczniki HTML</a>
-				</h2>
+				<h2 class="about__header">Co to są CSS?</h2>
+				<ol class="about__header__paragraph">
+					<li>odpowiadają za prezentację treści strony</li>
+					<li>przeglądarki potrafią róznie interpretować CSS</li>
+					<li>nie mają jednej wersji(rozwój modułów),potocznie mówi się e aktulana wersja to 3</li>
+					<li>pisanie stylów powoduje wiele frustraji u programistów (ale jest też fajnym wyzwaniem)</li>
+				</ol>		
 			</section>
-			<section class="about">
-				<h2>
-					<a class="about__header--link" href="atrybuty.html">Atrybuty HTML</a>
-				</h2>
-			</section>
-			<section class="about">
-				<h3 class="about__header">Co to są CSS?</h3>
-				<articule>
-					<p class="about__header__paragraph">
-						-odpowiadają za prezentację treści strony
-						-nie mają jednej wersji(rozwój modułów),potocznie mówi się e aktulana wersja to 3
-						-przeglądrki potrafi róznie interpretować CSS, co prowadzi do tego że
-						-pisanie stylów powoduje wiele frustraji u programistów (ale jest też fajnym wyzwaniem)
-					</p>
-					<p class="about__header__paragraph--js"></p>
-				</articule>
-			</section>
+		</div>
 			<section class="about">
 				<h2 class="about__header">Polecnenia w CSS </h2>
-
-				<p class="about__header__paragraph">
-					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum quisquam non impedit pariatur, aliquam
-					odio dignissimos? Natus velit sint tempora. Ipsum debitis placeat dugiat eos? Totam expedita id vel
-					minus.
-				</p>
+				<p class="about__header__paragraph--js"></p>
 			</section>
 			<section class="about">
 				<h3 class="about__header">Jak stworzyć prawidłowego HTML5?</h3>
@@ -136,8 +117,9 @@
 		</section>
 
 	</main>
-	<footer>
+	<footer class="footer">
 		Strona Domowa Michała Maja, wszystko co zrobiłem jest efektem szkolenia WTF !!!
+		<a class="footer__link" href="#top">Wróć w górę strony</a>
 	</footer>
 	<script src="main.js"></script>
 

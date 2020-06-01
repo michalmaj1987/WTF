@@ -1,6 +1,6 @@
 console.log('siema!');
 const name = 'Michał Maj';
-const age = 32; 
+const age = 33; 
 console.log(name);
 console.log(age);
 
@@ -14,3 +14,14 @@ const header = document.querySelector('.main__header--js');
 header.innerHTML = `Witaj Nazywam się ${name} i mam ${age} lata.`;
 const emptyParagraph = document.querySelector('.about__header__paragraph--js');
 emptyParagraph.innerHTML = `Jeszcze nie uzupełniłem treści o CSS ale zrobiłem JS!`;
+
+
+const hamburger = document.querySelector('.hamburger--js');
+ 
+hamburger.addEventListener('click', () => {
+ const nav = document.querySelector('.navigation--js');
+ nav.classList.toggle('navigation--open');
+})
+
+
+
