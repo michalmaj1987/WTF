@@ -39,7 +39,7 @@ body {
 }
 
 .main {
-  margin: 60 px auto 0;
+  margin: 60px auto 0;
 }
 
 
@@ -102,4 +102,8 @@ body {
     grid-template-columns: 1fr 1fr;
     column-gap: 16px;
 
+  }
+
+  .name{
+    color: white;
   }
