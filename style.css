@@ -28,6 +28,10 @@ body {
 .about__header {
   color: #e7e40a;
 }
+.about__header::before {
+ content: "# ";
+}
+
 
 .about__header__paragraph {
   color: #f4f0f4;
