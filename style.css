@@ -14,7 +14,7 @@ body {
 }
 
 .main__header {
-  color: tomato;
+  color: gold;
 }
 
 .header {
@@ -41,14 +41,13 @@ body {
   color: #f4f0f4;
 
 }
-
-.main {
-  margin: 60px auto 0;
+.about__header--link {
+  color: #f4f0f4;
 }
 
 
-.about__header--link {
-  color: #f4f0f4;
+.main {
+  margin: 60px auto 0;
 }
 
 .navigation {
